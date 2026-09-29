@@ -107,7 +107,7 @@ Full architecture diagram → [`Order-Flow-V2/README.md#architecture--how-it-all
 - **Website:** [jathol.org](https://jathol.org) · [jathol.org/guide](https://jathol.org/guide) · [jathol.org/download](https://jathol.org/download)
 - **WhatsApp (support on lock):** `@Jathol_Jutt` — shown in the app when a Main locks
 
-> Trading from Malaysia. Company registration & registered address appear on every licence receipt and are provided on request before purchase (Consumer Protection (Electronic Trade Transactions) Regulations 2012).
+
 
 <p align="center">
   <sub>Profile README lives at <code>github.com/juttjathol/juttjathol</code></sub>
