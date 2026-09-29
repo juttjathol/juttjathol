@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=14532d&height=160&section=header&text=JATHOL&fontSize=54&fontColor=FAF7F2&desc=Order%20Flow%20%E2%80%94%20Offline-first%20POS%20for%20restaurants%20%26%20retail&descAlignY=75&descAlign=50" alt="JATHOL banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=14532d&height=160&section=header&text=JATHOL&fontSize=54&fontColor=FAF7F2&desc=Order%20Flow%20-%20Offline-first%20POS%20for%20restaurants%20and%20retail&descAlignY=75&descAlign=50" alt="JATHOL banner"/>
 </p>
 
 <h1 align="center">Hi, I'm Jutt — founder of <a href="https://jathol.org">Jathol</a> 👋</h1>
