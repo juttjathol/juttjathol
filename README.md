@@ -1,116 +1,60 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=14532d&height=160&section=header&text=JATHOL&fontSize=54&fontColor=FAF7F2&desc=Order%20Flow%20-%20Offline-first%20POS%20for%20restaurants%20and%20retail&descAlignY=75&descAlign=50" alt="JATHOL banner"/>
-</p>
+<div align="center">
 
-<h1 align="center">Hi, I'm Jutt — founder of <a href="https://jathol.org">Jathol</a> 👋</h1>
-<p align="center">
-  I build <b>Order Flow</b> — the offline-first, multi-device POS that keeps the shop selling even when the internet doesn't.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=800&color=2FFFA0&center=true&vCenter=true&width=650&lines=Offline-first+POS+that+runs+from+a+phone;Flutter+%C2%B7+Cloudflare+%C2%B7+PWA;One+license+%E2%86%92+every+device+in+the+shop" alt="typing intro" />
+
+# Jathol Jutt
+
+**Solo builder of [Order Flow](https://github.com/juttjathol/Order-Flow-V2) — an offline-first, multi-device POS that runs a real restaurant from a phone.**
+
+[![Website](https://img.shields.io/badge/website-jathol.org-0ea5e9)](https://jathol.org)
+[![Web app](https://img.shields.io/badge/PWA-jathol.org%2Fapp-2FFFA0?labelColor=052e16)](https://jathol.org/app)
+[![Guide](https://img.shields.io/badge/guide-EN_%7C_%D8%A7%D8%B1%D8%AF%D9%88-b45309)](https://jathol.org/guide)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-@Jathol__Jutt-25D366?logo=whatsapp&logoColor=white)](https://wa.me/Jathol_Jutt)
+
+</div>
+
+---
+
+## 🚀 What I ship — Order Flow
+
+One repo, one license key, every screen in the shop. Main works **offline for 48 hours**; the internet is a courier, never a dependency.
+
+| Client | Runs on | What it is |
+|---|---|---|
+| 📱 **Android APK** | Main + stations | Flutter app — Main server on `:8787`, Order Taker / Kitchen / Cashier / Driver pair free with IP or QR |
+| 💻 **Windows Main** | Windows 10/11 | The same Main server as a portable `order_flow.exe` |
+| 🌐 **Web PWA** | iPhone / any browser | Full POS at [`jathol.org/app`](https://jathol.org/app) — installable, offline-first, IndexedDB-backed, prints on iOS via share-sheet PDF (standalone), AirPrint (Safari) or Bluetooth ESC/POS |
+| 🧾 **Guest QR menu** | Customer phones | `/order.html` — renders instantly from a snapshot cache, self-heals if Main is asleep, flood-capped |
+| ☁️ **SaaS dashboard** | Cloudflare Pages + D1 | License keys, plans, per-key feature access, encrypted cloud relay (AES-GCM, 30-min TTL, **orders never touch the cloud**) |
+
+**Feature depth:** LAN multi-device sync · thermal printing (network `9100`, Bluetooth, Windows spooler) · cash drawer on cash only · split tender · refunds · loyalty points · 86 board · reservations · recipe costing & food margin · suppliers & purchase orders · wastage · X/Z reports · English + اردو with full RTL.
+
+## 🧰 Toolbox
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Workers_%C2%B7_Pages_%C2%B7_D1-F38020?logo=cloudflare&logoColor=white)
+![JavaScript](https://img.shields.io/badge/Vanilla_JS_PWA-F7DF1E?logo=javascript&logoColor=black)
+![AES-GCM](https://img.shields.io/badge/AES--GCM_sync-14532d)
+![ESC/POS](https://img.shields.io/badge/ESC%2FPOS_printing-052e16)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions_CI-2088FF?logo=githubactions&logoColor=white)
+
+## 📊 Numbers
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=juttjathol&show_icons=true&hide_border=true&bg_color=0D1117&title_color=2FFFA0&icon_color=2FFFA0&text_color=c9d1d9&ring_color=2FFFA0" alt="GitHub stats" />
+  <img height="165" src="https://streak-stats.demolab.com?user=juttjathol&hide_border=true&background=0D1117&ring=2FFFA0&fire=2FFFA0&currStreakLabel=2FFFA0&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" alt="streak" />
   <br/>
-  <sub>Android + Windows Main on <code>:8787</code> · Stations on LAN or encrypted cloud relay · One Main, many floors</sub>
-</p>
-
-<p align="center">
-  <a href="https://jathol.org"><img src="https://img.shields.io/badge/website-jathol.org-14532d?style=for-the-badge" alt="jathol.org"/></a>
-  <a href="https://jathol.org/download"><img src="https://img.shields.io/badge/download-APK_%2B_Windows-0ea5e9?style=for-the-badge" alt="download"/></a>
-  <a href="https://jathol.org/guide"><img src="https://img.shields.io/badge/guide-English_%7C_%D8%A7%D8%B1%D8%AF%D9%88-b45309?style=for-the-badge" alt="guide"/></a>
-  <a href="mailto:contact@jathol.org"><img src="https://img.shields.io/badge/contact-contact%40jathol.org-FAF7F2?style=for-the-badge&color=14532d" alt="contact@jathol.org"/></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/juttjathol/Order-Flow-V2/releases/latest"><img src="https://img.shields.io/github/v/release/juttjathol/Order-Flow-V2?label=latest%20release&color=14532d" alt="latest release"/></a>
-  <img src="https://img.shields.io/badge/Main-Android_%7C_Windows_10--11-14532d" alt="Main"/>
-  <img src="https://img.shields.io/badge/Shop%20UI-English_%7C_%D8%A7%D8%B1%D8%AF%D9%88-b45309" alt="UI"/>
-  <img src="https://img.shields.io/badge/license-per%20shop%20key-FAF7F2" alt="license"/>
-</p>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=juttjathol&repo=Order-Flow-V2&hide_border=true&bg_color=0D1117&title_color=2FFFA0&icon_color=2FFFA0&text_color=c9d1d9" alt="Order Flow pinned" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juttjathol&layout=compact&hide_border=true&bg_color=0D1117&title_color=2FFFA0&text_color=c9d1d9" alt="top languages" />
+</div>
 
 ---
 
-### 🚀 Flagship — Order Flow V2
+## 📬 Talk to me
 
-> **One Main. A whole floor of stations.** Main holds the license and runs the local server. Tablets join on the same Wi-Fi — or over an encrypted cloud relay when the shop Wi-Fi dies. Your sales stay on your device.
+Selling Order Flow, fitting it to your shop, or hiring — WhatsApp **[@Jathol_Jutt](https://wa.me/Jathol_Jutt)**.
 
-**Live:** [jathol.org](https://jathol.org) · [User Guide](https://jathol.org/guide) · [Download](https://jathol.org/download) · [Releases](https://github.com/juttjathol/Order-Flow-V2/releases/latest)
-
-**What it does — 15 gated extras per license key:**
-
-| Tier | What you get |
-|------|--------------|
-| **Starter `RM 79/mo`** | POS billing, inventory, reports, receipt printing — core only |
-| **Growth `RM 149/mo`** | + 13 extras: `multi_terminal` · `station_printers` · `qr_ordering` · `loyalty` · `split_payment` · `refunds` · `customer_display` · `reservations` · `recipe_costing` · `wastage` · `purchases` · `advanced_reports` · `eighty_six` |
-| **Custom** | Hand-pick any of the 15 — you choose |
-| **Full** | Everything on, always |
-
-`cloud_sync` + `qr_branding` are **Custom/Full only** — encrypted relay (`AES-GCM`, 30m TTL, 200 rows, `1.2s` hot / `30s` idle) and a branded guest QR page. Shop data is **never** backed up to the cloud — relay is transit.
-
-<details>
-<summary><b>How the shop works (click to expand)</b></summary>
-
-- **Main = server on `:8787`** — Android phone or Windows laptop (`order_flow.exe`). Works **offline 48h** after first activation.
-- **Stations** — Order Taker / Kitchen / Cashier / Driver / etc. — join free via IP or QR. No key needed.
-- **QR self-order** — guests open `http://<main-ip>:8787/order`, pick a table, send to kitchen (`channel: qr`, `24/h` per table, `900/h` shop cap).
-- **LAN + Cloud** — stations ride LAN first, fall back to cloud relay on mobile data. Offline queue auto-merges.
-- **License:** `POST /api/v1/license/validate { licenseKey, deviceId }` — first device binds, second rejected until **Reset device**. Dashboard propagates plan in ≤15 min or instantly via **More → License → Refresh plan & features**.
-
-Full architecture diagram → [`Order-Flow-V2/README.md#architecture--how-it-all-connects`](https://github.com/juttjathol/Order-Flow-V2#architecture--how-it-all-connects)
-</details>
-
----
-
-### 🛠️ Stack
-
-<p>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" alt="Flutter"/>
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white" alt="Dart"/>
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white" alt="Cloudflare"/>
-  <img src="https://img.shields.io/badge/D1-SQLite-003B57?style=flat&logo=cloudflare&logoColor=white" alt="D1"/>
-  <img src="https://img.shields.io/badge/Pages-Workers-F38020?style=flat" alt="Pages"/>
-  <img src="https://img.shields.io/badge/ESC%2FPOS-9100-14532d?style=flat" alt="ESC/POS"/>
-  <img src="https://img.shields.io/badge/Bluetooth-Classic_%7C_BLE-0082FC?style=flat&logo=bluetooth&logoColor=white" alt="Bluetooth"/>
-  <img src="https://img.shields.io/badge/Windows-10%2F11-0078D4?style=flat&logo=windows&logoColor=white" alt="Windows"/>
-  <img src="https://img.shields.io/badge/Android-APK-3DDC84?style=flat&logo=android&logoColor=white" alt="Android"/>
-</p>
-
-**I work with:** offline-first sync, LAN servers (`shelf`/`dart:io`), `shared_preferences` persistence, role-based access, HMAC + PBKDF2 licensing, AES-GCM relay, thermal printing (ESC/POS `9100` / Bluetooth / Windows spooler), cash drawers, QR flows.
-
----
-
-### 📌 Pinned — start here
-
-<p>
-  <a href="https://github.com/juttjathol/Order-Flow-V2">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=juttjathol&repo=Order-Flow-V2&theme=transparent&title_color=14532d&icon_color=14532d&text_color=1a1a1a&border_color=14532d&hide_border=false" alt="Order-Flow-V2"/>
-  </a>
-  <a href="https://github.com/juttjathol/order-flow">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=juttjathol&repo=order-flow&theme=transparent&title_color=14532d&icon_color=b45309&text_color=1a1a1a&border_color=b45309&hide_border=false" alt="order-flow"/>
-  </a>
-</p>
-
-> Building in public: `Order-Flow-V2` is the active repo (v1.1.84). `order-flow` is the previous generation. Website + SaaS dashboard live in the same monorepo.
-
----
-
-### 📊 At a glance
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=juttjathol&show_icons=true&theme=transparent&title_color=14532d&icon_color=14532d&text_color=1a1a1a&border_color=14532d&hide_border=false&include_all_commits=true" alt="stats" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juttjathol&layout=compact&theme=transparent&title_color=14532d&text_color=1a1a1a&border_color=14532d&hide_border=false" alt="top langs" height="150"/>
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=juttjathol&theme=transparent&border=14532d&ring=14532d&fire=b45309&currStreakLabel=14532d" alt="streak"/>
-</p>
-
----
-
-### 📫 Let's talk
-
-- **Licences, trials, resets, printers:** [contact@jathol.org](mailto:contact@jathol.org) — replies within 24h, Mon–Sat GMT+8
-- **Website:** [jathol.org](https://jathol.org) · [jathol.org/guide](https://jathol.org/guide) · [jathol.org/download](https://jathol.org/download)
-- **WhatsApp (support on lock):** `@Jathol_Jutt` — shown in the app when a Main locks
-
-
-
-<p align="center">
-  <sub>Profile README lives at <code>github.com/juttjathol/juttjathol</code></sub>
-  <br/>
-  <img src="https://komarev.com/ghpvc/?username=juttjathol&label=Profile%20views&color=14532d&style=flat" alt="profile views"/>
-</p>
+<div align="center">
+  <i>“Shop data lives on the device. The cloud is only a courier.”</i>
+</div>
